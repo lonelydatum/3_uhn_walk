@@ -44,7 +44,7 @@ function start() {
 	var timeRatio = .5 / 728;
 	var time = Math.max(timeRatio * w, .41);
 
-	var READ = universalBanner.name === "uhn-v1" ? 2.8 : 2.2;
+	var READ = universalBanner.name === "uhn-v1" ? 2.2 : 2.2;
 
 	tl.add("f2", "+=" + READ);
 	tl.to([".t1", ".logo_uhn"], { duration: time, opacity: 0, y: -h }, "f2");

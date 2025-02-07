@@ -41,7 +41,7 @@ function start(){
 	const time = Math.max(timeRatio * w, .41)
 	
 	
-	const READ = universalBanner.name==="uhn-v1"?2.8:2.2
+	const READ = universalBanner.name==="uhn-v1"?2.2:2.2
 	
 	tl.add("f2", `+=${READ}`)
 	tl.to([".t1", ".logo_uhn"], {duration:time, opacity:0, y:-h}, "f2")
